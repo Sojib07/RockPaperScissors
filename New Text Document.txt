@@ -1,0 +1,7 @@
+  <div class="panel-group" id="MainAccordion" role="tablist" aria-multiselectable="true">
+      <div id="divEmployeeSummary" class="panel panel-default" style="display:none;">
+          <div id="divEmployeeSummaryHeader" class="panel-heading" role="tab">
+              <span><a id="lnkEmployeeSummary" role="button" data-toggle="collapse" data-parent="#MainAccordion" href="#divEmployeeSummaryContent" aria-expanded="true" aria-controls="divEmployeeSummaryContent"> @LocalizationProvider.GetResource("AttendanceApproval", "AttendanceApprovalEmployeeSummary")</a></span>
+          </div>
+          <div id="divEmployeeSummaryContent" class="panel-collapse collapse" role="tabpanel" aria-labelledby="divEmployeeSummaryHeader">
+              <div class="panel-body">
